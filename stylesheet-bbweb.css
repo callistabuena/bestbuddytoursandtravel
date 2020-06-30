@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  html, body,
+  ul, ol, li,
+  h1, h2, h3, h4, h5, h6, p, div {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.fa {
+  margin-right: 5px;
+}
+
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color:  rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+  
+  .logo {
+    width: 65px;
+  }
+  
+  .header-left {
+    float: left;
+    cursor: none;
+  }
+
+  .header-left p {
+    float: right;
+    padding: 25px;
+    color: white;
+    padding-left: 20px;
+    cursor: none;
+    font-family: 'Quicksand', sans-serif !important;
+
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+    cursor: pointer;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+    font-family: 'Quicksand', sans-serif !important;
+    
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Change the display property to none */
+    display: none;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(cover-bb.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.5;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    font-family: 'Sriracha', sans-serif;
+    line-height: 80px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.5;
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  .signup {
+    background-color: #239b76;
+  }
+  
+  .facebook {
+    background-color: #3b5998;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .tours-wrapper {
+    text-align: center;
+    background-color: #edebeb !important;
+    padding-bottom: 100px;
+    
+  }
+
+  /* Clear floats after the tours-wrapper */
+  .tours-wrapper:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .container-tours {
+    padding: 0 50px;
+  }
+  
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+    max-width: 1170px;
+    padding: 50px 70px;
+    margin: 0 auto;
+  }
+  
+  .heading h1 {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 52px;
+  }
+
+  .heading p {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 26px;
+  }
+  
+  .japan-list {
+    float: left;
+    width: 25%  !important;
+    
+  }
+  
+  .japan-icon {
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .japan-icon img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .text-contents {
+    display: inline-block;
+    font-size: 16px;
+    color: #5f5d60;
+    font-family: 'Quicksand', sans-serif;
+    width: 90%;
+    text-align: justify !important;
+    height: 120px !important;
+  }
+  
+  .contact-wrapper {
+    background: linear-gradient(to bottom, #edebeb 0%,  #ffb917 100%);
+    
+  }
+
+  .container-contactinfo {
+    margin: 0 150px;
+  
+  }
+
+  .contactus {
+    text-align: center;
+  }
+
+  .contactus h1 {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 52px;
+  }
+
+  .contactus p {
+    font-family: 'Indie Flower', sans-serif;
+    font-size: 26px;
+  }
+  
+  .infoinfo {
+    position: absolute;
+    padding-left: 150px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  .contact-form {
+    padding-top: 100px;
+    text-align: left;
+  }
+  
+  /* Add CSS for <input> and <textarea> tags */
+  input {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+  /* Add CSS for contact-submit */
+  textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+
+  .contact-submit {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .contact-submit:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+
+  .reachushere {
+    text-align: left;
+    margin-top: 20px;
+    width: 400px;
+  }
+
+
+  .findushere {
+    margin-top: 20px;
+    width: 400px;
+
+  }
+
+  .our-sosmed {
+    float: left;
+  }
+  .instagram {
+    background-color: #E1306C;
+  }
+  
+  .youtube {
+    background-color: #c4302b;
+  }
+  
+  
+  .featured-image {
+    width: 70%;
+    height: 70%;
+    object-position: right;
+    float: none;
+    position: relative;
+    margin-left: 180px;
+    margin-top: 40px;
+    
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(34, 49, 52, 0.9);
+  font-size: 14px;
+  padding: 10px;
+  color:#dee7ec;
+  font-family: 'Quicksand', sans-serif;
+}
